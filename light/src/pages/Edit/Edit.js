@@ -41,7 +41,6 @@ const Edit = () => {
             value={newProduct.title}
             onChange={HandleChange}
           />
-          <br></br>
           <Form.Label>Description :</Form.Label>
           <Form.Control
             type="text"
@@ -50,7 +49,6 @@ const Edit = () => {
             value={newProduct.description}
             onChange={HandleChange}
           />
-          <br></br>
           <Form.Label>Price :</Form.Label>
           <Form.Control
             type="text"
@@ -60,7 +58,7 @@ const Edit = () => {
             onChange={HandleChange}
           />
           <hr></hr>
-          <Link to="products">
+          <Link to="/products">
             <Button variant="primary" type="submit" onClick={handleEdit}>
               Edit Product
             </Button>
