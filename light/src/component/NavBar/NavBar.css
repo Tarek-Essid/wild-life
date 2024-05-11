@@ -1,0 +1,22 @@
+.my-navbar {
+  background-color: none;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.me-auto {
+  font-size: medium;
+  margin-left: 70%;
+  font-family: Roboto Condensed;
+}
+
+.nav {
+  color: white !important;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 15%;
+}
+
+.nav:hover {
+  color: orange !important;
+}

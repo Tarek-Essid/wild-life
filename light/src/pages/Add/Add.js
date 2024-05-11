@@ -5,6 +5,7 @@ import Form from "react-bootstrap/Form";
 import Card from "react-bootstrap/Card";
 import {addProduct} from "../../JS/Actions/product";
 import {Link} from "react-router-dom";
+
 import "./Add.css";
 
 const Add = () => {
@@ -20,6 +21,7 @@ const Add = () => {
   const add = () => {
     dispatch(addProduct(newProduct));
   };
+
   return (
     <div className="add-me">
       <Card style={{width: "18rem"}} className="round-me">

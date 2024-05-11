@@ -19,7 +19,7 @@ const ProductList = () => {
       {load ? (
         <h1>
           {" "}
-          <Spinner animation="border" variant="primary" />
+          <Spinner className="SPINNER" animation="border" variant="primary" />
         </h1>
       ) : (
         listProducts.map((el) => <ProductCard product={el} key={el._id} />)

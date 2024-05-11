@@ -1,0 +1,25 @@
+.my-image {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 140vh;
+}
+
+.my-p {
+  margin-top: 18%;
+  margin-right: 45%;
+  color: orange;
+  font-size: medium;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.my-h1 {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 50%;
+  color: white;
+}

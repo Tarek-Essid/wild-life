@@ -1,11 +1,11 @@
 import React from "react";
 import ProductList from "../../component/ProductList/ProductList";
+import './Products.css'
 
 const Products = () => {
   return (
-    <div>
-      <h1>Products list</h1>
-      <ProductList /> 
+    <div className="color-me">
+      <ProductList />
     </div>
   );
 };
