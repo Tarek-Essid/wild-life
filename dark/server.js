@@ -10,6 +10,11 @@ require("dotenv").config();
 // 7 middleware body
 app.use(express.json());
 
+// test
+app.get("/", (req, res) => {
+  res.send("Welcome to my application!");
+});
+
 //6 ConnectDB
 const connectDB = require("./config/connectDB");
 connectDB();
