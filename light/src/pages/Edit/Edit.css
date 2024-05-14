@@ -5,3 +5,9 @@
   height: 110vh;
   background-image: linear-gradient(to right, orange, green);
 }
+
+.edit-h2 {
+  color: rgb(40, 0, 78) !important;
+  text-decoration: underline;
+  font-weight: 800 !important;
+}

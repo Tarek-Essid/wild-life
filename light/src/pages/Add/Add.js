@@ -25,6 +25,7 @@ const Add = () => {
   return (
     <div className="add-me">
       <Card style={{width: "18rem"}} className="round-me">
+        <h2 className="h2">ADD A PRODUCT</h2>
         <Card.Body>
           <Form.Label>Title :</Form.Label>
           <Form.Control

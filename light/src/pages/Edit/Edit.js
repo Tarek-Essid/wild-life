@@ -32,6 +32,7 @@ const Edit = () => {
   return (
     <div className="edit-me">
       <Card style={{width: "18rem"}}>
+        <h2 className="edit-h2">EDIT THIS PRODUCT</h2>
         <Card.Body>
           <Form.Label>Title :</Form.Label>
           <Form.Control
@@ -41,6 +42,7 @@ const Edit = () => {
             value={newProduct.title}
             onChange={HandleChange}
           />
+          <hr></hr>
           <Form.Label>Description :</Form.Label>
           <Form.Control
             type="text"
@@ -49,6 +51,7 @@ const Edit = () => {
             value={newProduct.description}
             onChange={HandleChange}
           />
+          <hr></hr>
           <Form.Label>Price :</Form.Label>
           <Form.Control
             type="text"

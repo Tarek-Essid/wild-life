@@ -11,7 +11,7 @@ const ProductCard = ({product}) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="my-cards">
       <Card style={{width: "18rem"}}>
         <Card.Body className="my-card">
           <img src={productImage} alt="img" width={230} height={150}></img>

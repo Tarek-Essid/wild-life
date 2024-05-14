@@ -6,3 +6,8 @@
   background-image: linear-gradient(to right, orange, green);
 }
 
+.h2 {
+  color: rgb(40, 0, 78) !important;
+  text-decoration: underline;
+  font-weight: 800 !important;
+}
