@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import {useDispatch} from "react-redux";
 import {deleteProduct} from "../../JS/Actions/product";
 import {useNavigate} from "react-router-dom";
-import productImage from "../assets/ProductImage.png";
+import productImage from "../assets/tentePicture.png";
 import "./ProductCard.css";
 
 const ProductCard = ({product}) => {
@@ -14,7 +14,7 @@ const ProductCard = ({product}) => {
     <div className="my-cards">
       <Card style={{width: "18rem"}}>
         <Card.Body className="my-card">
-          <img src={productImage} alt="img" width={230} height={150}></img>
+          <img src={productImage} alt="img" width={200} height={130}></img>
           <hr></hr>
           <Card.Title>{product.title}</Card.Title>
           <hr></hr>
